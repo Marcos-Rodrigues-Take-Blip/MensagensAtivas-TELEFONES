@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(rgb(45,196,212), rgb(222, 240, 242));
+  background-size: cover; /* ajusta o tamanho do fundo para cobrir toda a tela */
+  
+  font: normal 15pt Arial;
+  min-height: 100%; /* Defina a altura mínima da página como 100% */
+  height: 100%; /* ajusta a altura da página para cobrir toda a tela */
+   
+}
+
+input[type="text"] {
+    background-color: #efeaef;
+    border-radius: 5px;
+    border: 2px solid black; /* adiciona borda preta */
+    padding: 10px;
+    color: #000000;
+    font-size: 16px;
+    width: 400px; /* aumenta a largura */
+}
+.btn { /* todos os botões config*/
+    background-color: rgb(75, 200, 138);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
+    animation: swing 0.5s ease-in-out infinite alternate;
+  }
+  @keyframes swing {
+    0% {
+      transform: translateX(1px);
+    }
+    20% {
+      transform: translateX(1px);
+    }
+    40% {
+      transform: translateX(-1px);
+    }
+  }
+
+  
+header {
+    color: aliceblue;
+    text-align: center; 
+    
+}
+section {
+    background:rgb(255, 255, 255);
+    border-radius:  50px;
+    padding: 50px;
+    width:  600px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(11, 171, 174); 
+    position: relative;
+}
+
+div {
+    text-align: center;
+    padding:  30px;
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style:  italic;
+    background-color: transparent;
+
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;  
+  font-family: Arial, sans-serif;
+  color: #444;
+}
+
+td, th {
+  padding: 10px;  
+  text-align: left;
+  border: 3px solid rgb(45,196,212);
+  font-size: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;; /* cor de fundo para linhas pares */
+}
+
+tr:hover {
+  background-color: #c2c3c5; /* cor de fundo para linhas quando o mouse passa sobre elas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  min-width: 100px;
+  font-weight: bold;
+}
+td:nth-child(2) {
+  white-space: nowrap;
+}
+button {
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+
+
+
